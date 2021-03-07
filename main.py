@@ -282,8 +282,8 @@ class Finale(Seats, BuyTicket, Stats, CustInfo, AbhinandanPlex):
     def __init__(self):
         AbhinandanPlex.__init__(self)
         print('\nWelcome to AbhinandanPlex!\n')
-        print('\nWe are having the World Premiere of "Star Wars: The Last Jedi".\n')
-        print('\nBook your tickets fast!!!\n')
+        print('We are having the World Premiere of "Star Wars: The Last Jedi".\n')
+        print('Book your tickets fast!!!\n')
         self.showMenu()
 
     def showMenu(self):
